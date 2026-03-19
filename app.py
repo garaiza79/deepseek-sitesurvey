@@ -4,6 +4,8 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import uuid
+from streamlit_folium import st_folium
+
 
 # Importar módulos propios
 from config import ELEMENT_TYPES, FORM_CONFIGS, DEFAULT_LAT, DEFAULT_LON
